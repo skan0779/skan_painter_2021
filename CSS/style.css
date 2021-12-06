@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url("reset.css");
+@import url("controller.css");
+
+body{
+    font-family: 'Architects Daughter', cursive; 
+    background-color: rgb(162, 224, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+}
+.canvas{
+    width:600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px  rgba(0, 0, 0, 0.08);
+}
+
